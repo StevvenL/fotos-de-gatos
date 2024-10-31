@@ -1,0 +1,58 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <title>AppFotosGAtos </title>
+</head>
+<body>
+    <main>
+      <h1>APLICACION DE FOTOS DE GATOS</h1>
+      <section>
+        <h2>Fotos de gatos</h2>
+        <p>Click <a target="_blank" href="https://freecatphotoapp.com"> <strong>AQUI</strong></a> para ver mas fotos.</p>
+        <a href="https://freecatphotoapp.com"><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+      </section>
+      <section>
+        <h2>Tipos de Gatos</h2>
+        <h3>Cosas que le gustan a los gatos:</h3>
+        <ul>
+          <li>Dormir</li>
+          <li>Punteros Laser</li>
+          <li>lasaña</li>
+        </ul>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Los gatos <em>aman</em> la lasaña.</figcaption>  
+        </figure>
+        <h3>Top 3: <strong>COSAS QUE LOS GATOS ODIAN</strong></h3>
+        <ol>
+          <li>Tratamiento contra pulgas</li>
+          <li>Truenos</li>
+          <li>Otros Gatos</li>
+          <li>los perros</li>
+        </ol>
+        <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Los Gatos <strong>odian</strong> a otros gatos.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>TIPOS DE GATOS </h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>¿Tu gato es un gato de interior o de exterior?</legend>
+            <label><input id="INTERIOR" type="radio" name="INTERIOR-EXTERIOR" value="INTERIOR" checked> INTERIOR</label>
+            <label><input id="EXTERIOR" type="radio" name="INTERIOR-EXTERIOR" value="EXTERIOR"> EXTERIOR</label>
+          </fieldset>
+          <fieldset>
+            <legend>¿Cuál es la personalidad de tu gato?</legend>
+            <input id="AMOROSO" type="checkbox" name="personality" value="AMOROSO" checked> <label for="AMOROSO">AMOROSO</label>
+            <input id="PEREZOSO" type="checkbox" name="personality" value="PEREZOSO"> <label for="PEREZOSO">PEREZOSO</label>
+            <input id="ENERGETICO" type="checkbox" name="personality" value="ENERGETICO"> <label for="ENERGETICO">ENERGETICO</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+</body>
+</html>
